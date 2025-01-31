@@ -1,0 +1,55 @@
+Opis projekta
+
+Projekt je razvijen korištenjem sljedećih tehnologija:
+
+Python - programski jezik korišten za razvoj sustava
+
+PyTorch - biblioteka za duboko učenje, korištena za izradu i treniranje neuronske mreže
+
+NLTK - biblioteka za obradu prirodnog jezika (tokenizacija, stemming, vektorizacija riječi)
+
+JSON - format korišten za spremanje i organizaciju podataka o namjerama korisnika
+
+3. Struktura projekta
+
+Projekt se sastoji od sljedećih datoteka:
+
+chat.py - glavna skripta za pokretanje chatbota
+
+train.py - skripta za treniranje modela neuronske mreže
+
+model.py - definicija arhitekture neuronske mreže
+
+nltk_utilites.py - funkcije za obradu prirodnog jezika (tokenizacija, stemming, bag-of-words)
+
+traindata.json - podaci o namjerama korisnika i odgovarajućim odgovorima
+
+data.pth - spremljeni model nakon treniranja
+
+4. Funkcionalnosti chatbota
+
+Gym Bro chatbot je dizajniran da pruži odgovore na korisničke upite vezane uz fitness. Prepoznaje različite kategorije pitanja, uključujući:
+
+Pozdrave i odjave
+
+Preporuke vježbi za različite mišićne skupine
+
+Savjete o prehrani (za gubitak ili dobivanje mišićne mase)
+
+Informacije o opremi za vježbanje
+
+Savjete o motivaciji i oporavku
+
+Kardio vježbe i planove treninga
+
+/////////////////
+
+Upute za pokretanje projekta
+
+pip install torch nltk
+
+python train.py - treniranje modela
+
+python chat.py - pokretanje chatbota
+
+quit - zavrsavanje razgovora sa chatbotom
