@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "intents": [
     {
@@ -289,3 +290,296 @@
     }
   ]
 }
+=======
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "What's up?", "Is anyone there?"],
+      "responses": [
+        "Hello! Ready to hit the gym?",
+        "Hey! How can I help with your fitness goals?",
+        "Hi there! Let's get moving!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Catch you later"],
+      "responses": [
+        "Goodbye! Stay strong!",
+        "See you later! Keep pushing!",
+        "Bye! Remember, consistency is key!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot"],
+      "responses": [
+        "You're welcome! Keep up the great work!",
+        "Happy to help with your fitness journey!",
+        "No problem! Keep smashing those goals!"
+      ]
+    },
+    {
+      "tag": "chest",
+      "patterns": [
+        "What are the best exercises for chest?",
+        "How can I build my pecs?",
+        "Give me a chest workout",
+        "What are some good chest exercises?"
+      ],
+      "responses": [
+        "For chest, try bench press, push-ups, dumbbell flyes, and incline bench press.",
+        "To build your pecs, focus on flat and incline bench press, dips, and cable flyes.",
+        "A great chest workout: 4 sets of bench press, 3 sets of incline dumbbell press, and 3 sets of cable flyes."
+      ]
+    },
+    {
+      "tag": "back",
+      "patterns": [
+        "What are the best back exercises?",
+        "How do I get a stronger back?",
+        "Recommend some back workouts",
+        "What exercises are good for lats?"
+      ],
+      "responses": [
+        "For back, focus on deadlifts, pull-ups, barbell rows, and lat pulldowns.",
+        "To strengthen your back, try pull-ups, face pulls, and seated cable rows.",
+        "A great back workout: 4 sets of deadlifts, 3 sets of pull-ups, and 3 sets of bent-over barbell rows."
+      ]
+    },
+    {
+      "tag": "legs",
+      "patterns": [
+        "How can I build bigger legs?",
+        "What are the best leg workouts?",
+        "Give me a leg day routine",
+        "What exercises should I do for legs?"
+      ],
+      "responses": [
+        "For legs, focus on squats, lunges, leg presses, and Romanian deadlifts.",
+        "A solid leg day workout: 4 sets of squats, 3 sets of lunges, and 3 sets of leg curls.",
+        "To build strong legs, do compound movements like squats and deadlifts, and add isolation work like calf raises."
+      ]
+    },
+    {
+      "tag": "shoulders",
+      "patterns": [
+        "How do I grow my shoulders?",
+        "What are the best shoulder workouts?",
+        "What exercises help build big shoulders?",
+        "Give me a shoulder routine"
+      ],
+      "responses": [
+        "For shoulders, do overhead press, lateral raises, and rear delt flyes.",
+        "A good shoulder workout: 4 sets of military press, 3 sets of lateral raises, and 3 sets of face pulls.",
+        "To build big shoulders, focus on all three heads of the deltoid: overhead press for front, lateral raises for side, and reverse flyes for rear."
+      ]
+    },
+    {
+      "tag": "biceps",
+      "patterns": [
+        "How do I get bigger biceps?",
+        "What are the best exercises for biceps?",
+        "Give me an biceps workout",
+        "How do I grow my biceps?"
+      ],
+      "responses": [
+        "For biceps, you can do undergrip pull up, standing dumbell bicep curls and preacher curls.",
+        "A great biceps workout: 3 sets of standing bicep curls, 3 sets of hammer curls, 3 sets of preacher curls. You aim for 6-10 reps.",
+        "To grow your arms, focus on progressive overload with barbell curls, concentrated dumbell curls bench press."
+      ]
+    },
+    {
+      "tag": "triceps",
+      "patterns": [
+        "How do I get bigger triceps?",
+        "What are the best exercises for triceps?",
+        "Give me an triceps workout",
+        "How do I grow my triceps?"
+      ],
+      "responses": [
+        "For triceps, you can do dips, tricep pushowns and close grip bench press.",
+        "A great triceps workout: 3 sets of dips, 3 sets of tricep pushdowns, 3 sets of close grip bench press. You aim for 6-10 reps.",
+        "To grow your triceps you can do overhead triceps extensions, skull chrushers and tricep kickbacks."
+      ]
+    },
+    {
+      "tag": "abs",
+      "patterns": [
+        "How do I get abs?",
+        "What are the best core exercises?",
+        "How can I strengthen my core?",
+        "Give me an ab workout"
+      ],
+      "responses": [
+        "For abs, do planks, crunches, leg raises, and Russian twists.",
+        "A strong core workout: 3 sets of hanging leg raises, 3 sets of cable crunches, and 3 sets of planks.",
+        "To get abs, reduce body fat through diet and train with weighted ab exercises like decline sit-ups."
+      ]
+    },
+    {
+      "tag": "traps",
+      "patterns": [
+        "How do I grow my traps?",
+        "What are the best trap workouts?",
+        "Give me exercises for bigger traps",
+        "How do I make my traps stronger?"
+      ],
+      "responses": [
+        "For traps, do shrugs, deadlifts, and upright rows.",
+        "A great trap workout: 4 sets of barbell shrugs, 3 sets of upright rows, and 3 sets of face pulls.",
+        "To build strong traps, use heavy weights with shrugs and focus on slow, controlled reps."
+      ]
+    },
+    {
+      "tag": "calves",
+      "patterns": [
+        "How do I grow my calves?",
+        "What are the best exercises for calves?",
+        "Give me a calf workout",
+        "Why are my calves small?"
+      ],
+      "responses": [
+        "For calves, do standing and seated calf raises with high reps.",
+        "A great calf workout: 4 sets of standing calf raises and 4 sets of seated calf raises.",
+        "To grow your calves, train them 2-3 times per week with controlled reps and high volume."
+      ]
+    },
+    {
+      "tag": "glutes",
+      "patterns": [
+        "How do I build my glutes?",
+        "What are the best exercises for glutes?",
+        "Give me a glute workout",
+        "How can I get stronger glutes?"
+      ],
+      "responses": [
+        "For glutes, do hip thrusts, Romanian deadlifts, and Bulgarian split squats.",
+        "A great glute workout: 4 sets of hip thrusts, 3 sets of sumo deadlifts, and 3 sets of Bulgarian split squats.",
+        "To build strong glutes, focus on progressive overload in hip thrusts and lunges."
+      ]
+    },
+    {
+      "tag": "cardio",
+      "patterns": [
+        "How important is cardio?",
+        "What are the best cardio exercises?",
+        "Give me a cardio workout",
+        "How often should I do cardio?"
+      ],
+      "responses": [
+        "Cardio is important for heart health and fat loss. Aim for 150 minutes per week.",
+        "The best cardio exercises are running, cycling, swimming, and jump rope.",
+        "A good cardio workout: 30 minutes of running, 20 minutes of cycling, and 10 minutes of jump rope.",
+        "For general health, aim for 3-5 days of cardio per week, with a mix of high-intensity and steady-state."
+      ]
+    },
+    {
+      "tag": "weight gain",
+      "patterns": [
+        "What should I want to gain weight?",
+        "Can you suggest a meal that will help me bulk up?",
+        "What is good food to eat if you want to get fat?",
+        "What diet is best for weight gain?",
+        "I want to get bulkier."
+      ],
+      "responses": [
+        "If you want to gain some weight, you should eat morce calories than you burn. So focus on calorie dense foods like nuts, seeds, dried fruits, and whole grains.",
+        "Good food to eat if you want to get fat are steak, cheese, pasterized eggs, whole grains and healthy fats.",
+        "For weight gain, focus on a high-calorie, high-protein diet with plenty of healthy fats and carbs.",
+        "For fat gain base your diet on red meats, and nuts like walnut, almond, peanuts, cashew..."
+      ]
+    },
+    {
+      "tag": "weight loss",
+      "patterns": [
+        "What should I eat if want to lose weight?",
+        "Can you suggest some low calorie foods?",
+        "What is good diet for losing weight?",
+        "What diet is best for fat loss?"
+      ],
+      "responses": [
+        "For weight loss, focus on a high-protein, low-calorie diet with lots of vegetables, lean meats, and healthy fats.",
+        "Some great low-calorie foods include leafy greens, lean proteins like chicken and fish, Greek yogurt, and fibrous fruits like berries.",
+        "A balanced diet for fat loss includes lean protein (chicken, fish, tofu), complex carbs (quinoa, brown rice), and healthy fats (avocados, nuts).",
+        "To lose weight effectively, eat nutrient-dense, whole foods while avoiding processed sugars and excess saturated fats.",
+        "Reduce sugar and refined carbs while increasing fiber intake from vegetables, whole grains, and legumes to support fat loss."
+      ]
+    },
+    {
+      "tag": "workout_plan",
+      "patterns": [
+        "Can you create a workout plan for me?",
+        "I want to build muscle, what should I do?",
+        "How many times a week should I train?",
+        "What is a good split for beginners?",
+        "I need workout plan."
+      ],
+      "responses": [
+        "For muscle building, focus on compound lifts like squats, deadlifts, and bench press.",
+        "Train at least 3-5 times a week with a mix of strength and cardio.",
+        "A good beginner split is full-body workouts 3 times a week.",
+        "I recommend consulting a trainer for a personalized workout plan!"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Motivate me",
+        "I feel like giving up",
+        "How do I stay motivated?",
+        "I don't see results, what should I do?",
+        "It's hard to stay consistent"
+      ],
+      "responses": [
+        "Remember why you started and take it one step at a time.",
+        "Set small, achievable goals and celebrate every win.",
+        "Results take time! Keep pushing and trust the process.",
+        "Stay consistent, and remember, progress is better than perfection."
+      ]
+    },
+    {
+      "tag": "equipment",
+      "patterns": [
+        "What equipment do I need for a home gym?",
+        "Can I build muscle without equipment?",
+        "What is the best equipment for cardio?"
+      ],
+      "responses": [
+        "For a home gym, get dumbbells, resistance bands, and a yoga mat.",
+        "Yes, bodyweight exercises like push-ups and squats are great for building muscle.",
+        "For cardio, a jump rope, treadmill, or exercise bike are excellent choices."
+      ]
+    },
+    {
+      "tag": "recovery",
+      "patterns": [
+        "How important is recovery?",
+        "What should I do on rest days?",
+        "How do I avoid injuries?",
+        "How long should I rest between workouts?"
+      ],
+      "responses": [
+        "Recovery is key! Ensure proper sleep and hydration.",
+        "On rest days, do light stretching or yoga and stay active.",
+        "Avoid injuries by warming up and maintaining proper form during exercises.",
+        "Rest between workouts depends on intensity, but 1-2 days per muscle group is typical."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a gym joke",
+        "Do you know any fitness jokes?",
+        "Make me laugh!"
+      ],
+      "responses": [
+        "Why did the gym close down? It just didn't work out.",
+        "I told my personal trainer I wanted to lose weight. He said, 'Don't eat anything fatty.' I asked, 'Like bacon and burgers?' He said, 'No, fatty, don't eat anything!'",
+        "Why don't weightlifters ever get caught? Because they know how to handle the press!"
+      ]
+    }
+  ]
+}
+>>>>>>> b03e1fc (Poboljsan model)
